@@ -18,23 +18,7 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration>
-        <fileset id="fileset" name="CoreContext" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/coreContext.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/all/workflowTestContext.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/domains/MasterDomain.xml</file>
-        </fileset>
-      </configuration>
-    </facet>
-    <facet type="jpa" name="JPA">
-      <configuration>
-        <setting name="validation-enabled" value="true" />
-        <datasource-mapping>
-          <factory-entry name="Master" />
-        </datasource-mapping>
-        <naming-strategy-map />
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/persistence-enhance.xml" />
-      </configuration>
+      <configuration />
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
@@ -143,13 +127,39 @@
     <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-transcoder:1.14" level="project" />
     <orderEntry type="library" name="Maven: org.apache.xmlgraphics:batik-svggen:1.14" level="project" />
     <orderEntry type="library" name="Maven: org.apache.pdfbox:fontbox:2.0.19" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.syncope.core:syncope-core-provisioning-java:2.1.10" level="project" />
+    <orderEntry type="library" name="Maven: com.github.ben-manes.caffeine:caffeine:2.8.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.javamail:geronimo-javamail_1.4_mail:1.8.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-templates:3.0.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.groovy:groovy-xml:3.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-bsf:3.0.9" level="project" />
+    <orderEntry type="library" name="Maven: bsf:bsf:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-jsr223:3.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-datetime:3.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-dateutil:3.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-sql:3.0.9" level="project" />
     <orderEntry type="library" name="Maven: org.apache.syncope.common:syncope-common-rest-api:2.1.10" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:jquery-ui-themes:1.12.1" level="project" />
+    <orderEntry type="module" module-name="syncope-ext-info-rest-cxf" />
+    <orderEntry type="module" module-name="syncope-ext-info-rest-api" />
+    <orderEntry type="module" module-name="syncope-ext-info-rest-api" />
+    <orderEntry type="library" name="Maven: org.apache.syncope.ext:syncope-ext-swagger-ui:2.1.10" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:29.0-jre" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:2.11.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.3.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.syncope.core:syncope-core-workflow-java:2.1.10" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.2.17.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.apache.syncope.core:syncope-core-workflow-api:2.1.10" level="project" />
     <orderEntry type="library" name="Maven: org.apache.syncope.core:syncope-core-provisioning-api:2.1.10" level="project" />
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz:2.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.syncope.core:syncope-core-persistence-api:2.1.10" level="project" />
+    <orderEntry type="library" name="Maven: net.tirasa.connid:connector-framework:1.5.0.2" level="project" />
+    <orderEntry type="library" name="Maven: net.tirasa.connid:connector-framework-internal:1.5.0.2" level="project" />
+    <orderEntry type="library" name="Maven: net.tirasa.connid:slf4j-logging:1.5.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.syncope.core:syncope-core-spring:2.1.10" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.jasypt:jasypt:1.9.3" level="project" />
@@ -182,152 +192,5 @@
     <orderEntry type="library" name="Maven: org.webjars:jquery:3.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:jquery-ui:1.12.1" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:highlightjs:10.1.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.flowable:syncope-ext-flowable-rest-cxf:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.flowable:syncope-ext-flowable-rest-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.flowable:syncope-ext-flowable-common-lib:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.flowable:syncope-ext-flowable-rest-api:javadoc:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.flowable:syncope-ext-flowable-logic:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.flowable:syncope-ext-flowable-bpmn:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-email:1.5" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-engine:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-bpmn-converter:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-process-validation:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-image-generator:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-engine-common-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-engine-common:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-variable-service-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-event-registry-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-variable-service:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-identitylink-service:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-identitylink-service-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-entitylink-service:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-entitylink-service-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-event-registry:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-event-registry-model:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-event-registry-json-converter:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-eventsubscription-service-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.liquibase:liquibase-core:4.3.5" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-event-registry-configurator:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-eventsubscription-service:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-task-service:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-task-service-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-job-service:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-job-service-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-batch-service:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-batch-service-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-idm-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-idm-engine:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-idm-engine-configurator:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-cmmn-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-cmmn-model:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-dmn-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-dmn-model:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-form-model:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-form-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-content-api:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-http-common:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.7" level="project" />
-    <orderEntry type="library" name="Maven: joda-time:joda-time:2.10.10" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-spring:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-spring-common:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-job-spring-service:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-event-registry-spring-configurator:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-event-registry-spring:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-idm-spring-configurator:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-idm-spring:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-json-converter:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.flowable:flowable-bpmn-model:6.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-rest-cxf:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-rest-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-common-lib:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-rest-api:javadoc:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-logic:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-persistence-jpa:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-persistence-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.core:syncope-core-persistence-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: net.tirasa.connid:connector-framework:1.5.0.2" level="project" />
-    <orderEntry type="library" name="Maven: net.tirasa.connid:connector-framework-internal:1.5.0.2" level="project" />
-    <orderEntry type="library" name="Maven: net.tirasa.connid:slf4j-logging:1.5.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-provisioning:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.camel:camel-core:2.25.4" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.camel:camel-spring:2.25.4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.camel:camel-script:2.25.4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.camel:camel-metrics:2.25.4" level="project" />
-    <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-core:3.2.6" level="project" />
-    <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-json:3.2.6" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.core:syncope-core-provisioning-java:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: com.github.ben-manes.caffeine:caffeine:2.8.8" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.geronimo.javamail:geronimo-javamail_1.4_mail:1.8.4" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.11.4" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-templates:3.0.9" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.groovy:groovy-xml:3.0.9" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-bsf:3.0.9" level="project" />
-    <orderEntry type="library" name="Maven: bsf:bsf:2.4.0" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-jsr223:3.0.9" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-datetime:3.0.9" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-dateutil:3.0.9" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-sql:3.0.9" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-provisioning-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-rest-cxf:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-rest-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-common-lib:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-rest-api:javadoc:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-logic:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-provisioning-java:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-provisioning-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.opensaml:opensaml-saml-api:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.opensaml:opensaml-xmlsec-api:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.opensaml:opensaml-soap-api:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.opensaml:opensaml-saml-impl:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.opensaml:opensaml-profile-api:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.opensaml:opensaml-core:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.opensaml:opensaml-security-impl:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.opensaml:opensaml-security-api:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.santuario:xmlsec:2.0.5" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" level="project" />
-    <orderEntry type="library" name="Maven: javax.xml.stream:stax-api:1.0-2" level="project" />
-    <orderEntry type="library" name="Maven: org.cryptacular:cryptacular:1.1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.54" level="project" />
-    <orderEntry type="library" name="Maven: org.opensaml:opensaml-xmlsec-impl:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: net.shibboleth.utilities:java-support:7.3.0" level="project" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-security-sso-saml:3.3.12" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-security-xml:3.3.12" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-security-saml:3.3.12" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.wss4j:wss4j-ws-security-dom:2.2.7" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.wss4j:wss4j-ws-security-common:2.2.7" level="project" />
-    <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache:2.10.6" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-persistence-jpa:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-persistence-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-rest-cxf:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-rest-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-common-lib:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-rest-api:javadoc:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-logic:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-provisioning-java:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-provisioning-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-extension-providers:3.3.12" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-security-sso-oidc:3.3.12" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-security-oauth2:3.3.12" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-security-jose-jaxrs:3.3.12" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-persistence-jpa:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-persistence-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.scimv2:syncope-ext-scimv2-rest-cxf:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.scimv2:syncope-ext-scimv2-rest-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.scimv2:syncope-ext-scimv2-common-lib:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.scimv2:syncope-ext-scimv2-rest-api:javadoc:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.scimv2:syncope-ext-scimv2-logic:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.scimv2:syncope-ext-scimv2-scim-rest-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.9.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.scimv2:syncope-ext-scimv2-scim-rest-cxf:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext:syncope-ext-swagger-ui:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: com.google.guava:guava:29.0-jre" level="project" />
-    <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
-    <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
-    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:2.11.1" level="project" />
-    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.3.4" level="project" />
-    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.3" level="project" />
   </component>
 </module>

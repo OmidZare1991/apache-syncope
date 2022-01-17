@@ -64,6 +64,7 @@
     <orderEntry type="library" name="Maven: org.apache.wicket:wicket-request:8.13.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.wicket:wicket-util:8.13.0" level="project" />
     <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-collections4:4.4" level="project" />
     <orderEntry type="library" name="Maven: org.danekja:jdk-serializable-functional:1.8.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.wicket:wicket-extensions:8.13.0" level="project" />
@@ -147,23 +148,5 @@
     <orderEntry type="library" name="Maven: org.webjars:jquery-ui:1.12.1" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:jquery:3.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:codemirror:5.62.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.flowable:syncope-ext-flowable-client-console:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.flowable:syncope-ext-flowable-common-lib:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.flowable:syncope-ext-flowable-rest-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-client-console:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-common-lib:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.camel:syncope-ext-camel-rest-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-client-console:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-common-lib:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-rest-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.saml2sp:syncope-ext-saml2sp-agent:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: commons-io:commons-io:2.11.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-client-console:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-common-lib:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-rest-api:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-agent:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.scimv2:syncope-ext-scimv2-client-console:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.scimv2:syncope-ext-scimv2-common-lib:2.1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.syncope.ext.scimv2:syncope-ext-scimv2-rest-api:2.1.10" level="project" />
   </component>
 </module>
