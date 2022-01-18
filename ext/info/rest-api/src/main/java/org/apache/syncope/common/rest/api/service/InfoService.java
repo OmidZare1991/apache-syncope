@@ -1,6 +1,7 @@
 package org.apache.syncope.common.rest.api.service;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
+import org.apache.syncope.common.lib.to.InfoRouteTO;
 import org.apache.syncope.common.rest.api.RESTHeaders;
 
 import javax.ws.rs.GET;
@@ -17,5 +18,5 @@ import javax.ws.rs.core.Response;
 public interface InfoService extends JAXRSService {
     @GET
     @Produces({MediaType.APPLICATION_JSON, RESTHeaders.APPLICATION_YAML, MediaType.APPLICATION_XML})
-    Response getInfo();
+    InfoRouteTO getInfo();
 }

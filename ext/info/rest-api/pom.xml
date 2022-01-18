@@ -22,6 +22,11 @@
             <artifactId>syncope-common-rest-api</artifactId>
             <version>${syncope.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.behsa.syncope.ext.info</groupId>
+            <artifactId>syncope-ext-info-logic</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

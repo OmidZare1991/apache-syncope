@@ -143,6 +143,8 @@
     <orderEntry type="library" name="Maven: org.webjars:jquery-ui-themes:1.12.1" level="project" />
     <orderEntry type="module" module-name="syncope-ext-info-rest-cxf" />
     <orderEntry type="module" module-name="syncope-ext-info-rest-api" />
+    <orderEntry type="module" module-name="syncope-ext-info-logic" />
+    <orderEntry type="module" module-name="syncope-ext-info-common-lib" />
     <orderEntry type="module" module-name="syncope-ext-info-rest-api" />
     <orderEntry type="library" name="Maven: org.apache.syncope.ext:syncope-ext-swagger-ui:2.1.10" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:29.0-jre" level="project" />

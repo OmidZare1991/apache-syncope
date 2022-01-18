@@ -12,6 +12,8 @@
     <modules>
         <module>rest-api</module>
         <module>rest-cxf</module>
+        <module>common-lib</module>
+        <module>logic</module>
     </modules>
     <groupId>com.behsa.syncope.ext</groupId>
     <artifactId>syncope-ext-info</artifactId>
