@@ -1,21 +1,30 @@
 package org.apache.syncope.common.lib.to;
 
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
+public class InfoRouteTO {
+    private Integer responseType;
+    private String responseDesc;
 
-@XmlRootElement(name = "InfoRoute")
-@XmlType
-public class InfoRouteTO implements EntityTO {
-    private static final long serialVersionUID = -4579384870805323467L;
-    private String value;
-
-    @Override
-    public String getKey() {
-        return value;
+    public InfoRouteTO() {
     }
 
-    @Override
-    public void setKey(final String value) {
-        this.value = value;
+    public InfoRouteTO(Integer responseType, String responseDesc) {
+        this.responseType = responseType;
+        this.responseDesc = responseDesc;
+    }
+
+    public String getResponseDesc() {
+        return responseDesc;
+    }
+
+    public void setResponseDesc(String responseDesc) {
+        this.responseDesc = responseDesc;
+    }
+
+    public Integer getResponseType() {
+        return responseType;
+    }
+
+    public void setResponseType(Integer responseType) {
+        this.responseType = responseType;
     }
 }
