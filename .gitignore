@@ -1,0 +1,12 @@
+# Folders
+target/
+.idea/
+logs/
+out/
+
+# files
+*.iml
+*.log
+*.zip
+*.err
+*.lck
